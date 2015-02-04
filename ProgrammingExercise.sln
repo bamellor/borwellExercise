@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProgrammingExercise", "ProgrammingExercise\ProgrammingExercise.vcxproj", "{D1C61C71-9EFE-46FF-81BC-A7A3230FF45D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "UnitTests\UnitTests.vcxproj", "{C913DBC4-ADC9-40A3-A965-622A820D1E47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FFCF5DE-6D92-408D-BF1E-62FF3569AAF8}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ProgrammingExercise.vsmdi = ProgrammingExercise.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ProgrammingExercise.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1C61C71-9EFE-46FF-81BC-A7A3230FF45D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1C61C71-9EFE-46FF-81BC-A7A3230FF45D}.Debug|Win32.Build.0 = Debug|Win32
+		{D1C61C71-9EFE-46FF-81BC-A7A3230FF45D}.Release|Win32.ActiveCfg = Release|Win32
+		{D1C61C71-9EFE-46FF-81BC-A7A3230FF45D}.Release|Win32.Build.0 = Release|Win32
+		{C913DBC4-ADC9-40A3-A965-622A820D1E47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C913DBC4-ADC9-40A3-A965-622A820D1E47}.Debug|Win32.Build.0 = Debug|Win32
+		{C913DBC4-ADC9-40A3-A965-622A820D1E47}.Release|Win32.ActiveCfg = Release|Win32
+		{C913DBC4-ADC9-40A3-A965-622A820D1E47}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
